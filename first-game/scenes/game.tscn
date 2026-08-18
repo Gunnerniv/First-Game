@@ -1,14 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://cjo57xfrw4arh"]
+[gd_scene load_steps=2 format=3 uid="uid://cjo57xfrw4arh"]
 
-[ext_resource type="PackedScene" uid="uid://g7k0dw4hf3pb" path="res://test/test_player.tscn" id="1_yqjtg"]
 [ext_resource type="PackedScene" uid="uid://dsqqxvmxy5vyu" path="res://scenes/level_1.tscn" id="2_lnu2h"]
 
 [node name="Game" type="Node2D"]
 
-[node name="Test_Player" parent="." instance=ExtResource("1_yqjtg")]
-position = Vector2(-177, -30)
-
 [node name="Level 1" parent="." instance=ExtResource("2_lnu2h")]
-position = Vector2(172.428, 16.7838)
+position = Vector2(209, 1138)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
